@@ -22,6 +22,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [WW documentation](#ww-documentation)
   - [WW open-source homebrew](#ww-open-source-homebrew)
 - [Hardware development](#hardware-development)
+- [Historical](#historical)
 
 ## Introduction
 
@@ -49,7 +50,6 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
  * **[STSWS](http://perfectkiosk.net/stsws.html)** - the most recent documentation source.
  * **[WSMan](http://daifukkat.su/docs/wsman/)** - contains some information not yet in STSWS.
- * [WSTech 2.4](https://github.com/OpenEmu/Mednafen-Core/blob/master/mednafen/wswan/wstech24.txt) - outdated, incorrect in places, linked for historical reasons.
 
 ### Other documentation
 
@@ -64,6 +64,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Software development
 
+ * [Kyoui](https://asie.pl/files/kyoui_2004_11_02.zip) (mirror) - tools for compiling WonderSwan binaries using OpenWatcom.
  * [Wonderful](https://github.com/WonderfulToolchain/wonderful-i8086) - work-in-progress gcc-ia16 based C/ASM toolchain for WonderSwan and WonderWitch.
  * [WSLink](https://bitbucket.org/trap15/wonder/src/master/) (MIT) - NASM linker outputting WonderSwan and WonderWitch compatible binaries.
 
@@ -118,7 +119,14 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Hardware development
 
+ * [Bandai2003](https://github.com/up-n-atom/Bandai2003) (MIT) - Verilog "2003" mapper implementation.
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
  * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) - FPGA-based screen capture solution.
  * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPLv2)
  * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC BY-NC-SA) - Headphone DAC adapter.
+
+## Historical
+
+These are links to files and sources which are noteworthy from a historical perspective, but have been superseded.
+
+ * [WSTech 2.4](https://github.com/OpenEmu/Mednafen-Core/blob/master/mednafen/wswan/wstech24.txt) - outdated document, incorrect in places.
