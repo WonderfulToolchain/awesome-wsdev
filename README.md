@@ -90,7 +90,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### Games
 
- * [SwanDriving](http://sebastianmihai.com/swan-driving.html) ([Mono](http://sebastianmihai.com/swan-driving-bw.html) - tech demo written with NASM.
+ * [SwanDriving](http://sebastianmihai.com/swan-driving.html) ([Mono](http://sebastianmihai.com/swan-driving-bw.html)) - tech demo written with NASM.
  * [WonderSnake](https://github.com/tslanina/Retro-WonderSwanColor-Wondersnake) (GPLv3) - Snake game written with Borland TASM.
 
 ### Other programs
