@@ -70,7 +70,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### Tools
 
  * [Dekadence WonderSwan Tools](https://github.com/superjohan/wonderswan-tools) - assorted Python scripts.
- * [splashbuilder](https://github.com/Godzil/splashbuilder)
+ * [splashbuilder](https://github.com/Godzil/splashbuilder) - toolchain for creating custom WonderSwan Color boot splashes.
  
 #### Graphics utilities
 
@@ -100,21 +100,25 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## WonderWitch
 
+ * [MiracleMage](https://github.com/Godzil/MiracleMage) - limited high-level WonderWitch emulator.
  * [romwitch](https://bitbucket.org/trap15/romwitch/) - utility to replace executables on "static" WonderWitch software images.
+ * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example on using Visual C++ 1.5 for compiling WonderWitch binaries.
 
 ### WW documentation
 
- * [Don Walizer Jr's tutorials](https://www.donwalizerjr.com/tags/wonderswan)
- * [wonder/doc/freya](https://bitbucket.org/trap15/wonder/src/master/doc/freya/) - initial Freya internals documentation by trap15.
+ * [Don Walizer Jr's tutorials](https://www.donwalizerjr.com/tags/wonderswan) ([source code](https://github.com/dwalizer/wonderwitch)).
+ * [wonder/doc/freya](https://bitbucket.org/trap15/wonder/src/master/doc/freya/) - initial Freya internals documentation.
 
 ### WW open-source homebrew
 
- * [vgmwitch](https://bitbucket.org/trap15/vgmwitch) (MIT) - SN76489 music player by trap15.
- * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPLv2) - terminal emulator by kozos.
- * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD 3-clause) - WWGP 2001 game by yns.
+ * [dumpipl](https://github.com/up-n-atom/wwsoft/tree/master/dumpipl) (MIT) - WS/WSC initial program loader dumping tool (as "Soft" image).
+ * [vgmwitch](https://bitbucket.org/trap15/vgmwitch) (MIT) - SN76489 music player.
+ * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPLv2) - terminal emulator.
+ * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD 3-clause) - WWGP 2001 game.
 
 ## Hardware development
 
- * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation by trap15.
+ * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
+ * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) - FPGA-based screen capture solution.
  * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPLv2)
  * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC BY-NC-SA) - Headphone DAC adapter.
