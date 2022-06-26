@@ -16,6 +16,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
     - [Music drivers](#music-drivers)
 - [Source code](#source-code)
   - [Boilerplate](#boilerplate)
+  - [Demos](#demos)
   - [Games](#games)
   - [Other programs](#other-programs)
 - [WonderWitch](#wonderwitch)
@@ -44,7 +45,7 @@ NEC V20/V30 line of CPUs, which provide additional opcodes and features on top o
 For a variety of reasons, NEC's documentation (and some WonderSwan documentation) uses unique NEC opcode names, while other sources
 and assemblers typically use Intel opcode names. A translation map between the two is available [as part of STSWS](http://perfectkiosk.net/stsws.html#cpu_8086_translation_map).
 
- * [NEC V30MZ Preliminary User's Manual](https://www.ardent-tool.com/CPU/docs/NEC/V20-V30/v30mz.pdf)
+ * [NEC V30MZ Preliminary User's Manual](https://www.renesas.com/us/en/document/lbr/v30mztm-hardware-preliminary)
 
 ### WonderSwan hardware
 
@@ -89,6 +90,10 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [Wonderful template](https://github.com/WonderfulToolchain/wonderful-i8086/tree/main/examples/wswan/template) - GCC/GAS-based template.
  * [wonder/template](https://bitbucket.org/trap15/wonder/src/master/samples/template/) - NASM-based template.
 
+### Demos
+
+ * [Bad Apple!! for WSwan](https://github.com/asiekierka/bad-apple-for-wswan) (MIT)
+
 ### Games
 
  * [SwanDriving](http://sebastianmihai.com/swan-driving.html) ([Mono](http://sebastianmihai.com/swan-driving-bw.html)) - tech demo written with NASM.
@@ -96,7 +101,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### Other programs
 
- * [Bad Apple!! for WSwan](https://github.com/asiekierka/bad-apple-for-wswan) (MIT)
+ * [ieepview](https://github.com/asiekierka/ws-ieepview) (MIT) - internal EEPROM viewer/editor.
  * [wsmonitor](https://bitbucket.org/trap15/wsmonitor/) (MIT) - 80186 debug monitor.
 
 ## WonderWitch
