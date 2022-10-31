@@ -58,31 +58,38 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Emulators
 
- * [Mednafen](https://mednafen.github.io/) (GPLv2) - medium accuracy, supports WonderWitch and serial port emulation.
- * [WonderFence](https://bitbucket.org/trap15/wonderfence/src/master/) (MIT) - MobileWonderGate internet adapter emulator.
+### Console
+
+ * [ares](https://ares-emu.net/) (ISC)
+ * [Mednafen](https://mednafen.github.io/) (GPL-2.0) - supports WonderWitch and serial port emulation.
  * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DSi.
- * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) - C#-based WonderSwan emulator.
+ * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) (MIT) - C#-based WonderSwan emulator.
+ * [WonderDroid Ultra](https://f-droid.org/packages/com.atelieryl.wonderdroid/) (GPL-2.0) - Mednafen wrapper for Android phones.
+
+### Peripherals
+
+ * [WonderFence](https://bitbucket.org/trap15/wonderfence/src/master/) (MIT) - MobileWonderGate internet adapter emulator.
 
 ## Software development
 
  * [owswan](https://github.com/jounikor/owswan) - OpenWatcom-based WonderSwan toolchain. 
- * [Kyoui](https://asie.pl/files/kyoui_2004_11_02.zip) (mirror) - tools for compiling WonderSwan binaries using OpenWatcom.
+ * [Kyoui](https://asie.pl/files/kyoui_2004_11_02.zip) - (mirror) tools for compiling WonderSwan binaries using OpenWatcom.
  * [Wonderful](https://github.com/WonderfulToolchain/wonderful-i8086) - work-in-progress gcc-ia16 based C/ASM toolchain for WonderSwan and WonderWitch.
  * [WSLink](https://bitbucket.org/trap15/wonder/src/master/) (MIT) - NASM linker outputting WonderSwan and WonderWitch compatible binaries.
 
 ### Tools
 
- * [Dekadence WonderSwan Tools](https://github.com/superjohan/wonderswan-tools) - assorted Python scripts.
- * [splashbuilder](https://github.com/Godzil/splashbuilder) - toolchain for creating custom WonderSwan Color boot splashes.
+ * [Dekadence WonderSwan Tools](https://github.com/superjohan/wonderswan-tools) (MIT) - assorted Python scripts.
+ * [splashbuilder](https://github.com/Godzil/splashbuilder) (BSD-3-Clause) - toolchain for creating custom WonderSwan Color boot splashes.
  
 #### Graphics utilities
 
- * **[SuperFamiconv](https://github.com/Optiroc/SuperFamiconv)** - tile/map converter with flexible palette/optimization options and mostly-complete WS/WSC support.
+ * **[SuperFamiconv](https://github.com/Optiroc/SuperFamiconv)** (MIT) - tile/map converter with flexible palette/optimization options and mostly-complete WS/WSC support.
  * [bmp2swan](http://onorisoft.free.fr/retro.htm?ws/ws.htm) - simple bitmap converter.
 
 #### Music drivers
 
- * [WonderSwan Total Sound Driver](https://github.com/Shaw02/WTD) (license unknown)
+ * [WonderSwan Total Sound Driver](https://github.com/Shaw02/WTD)
 
 ## Source code
 
@@ -98,7 +105,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### Games
 
  * [SwanDriving](http://sebastianmihai.com/swan-driving.html) ([Mono](http://sebastianmihai.com/swan-driving-bw.html)) - tech demo written with NASM.
- * [WonderSnake](https://github.com/tslanina/Retro-WonderSwanColor-Wondersnake) (GPLv3) - Snake game written with Borland TASM.
+ * [WonderSnake](https://github.com/tslanina/Retro-WonderSwanColor-Wondersnake) (GPL-3.0) - Snake game written with Borland TASM.
 
 ### Other programs
 
@@ -107,8 +114,8 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## WonderWitch
 
- * [MiracleMage](https://github.com/Godzil/MiracleMage) - limited high-level WonderWitch emulator.
- * [romwitch](https://bitbucket.org/trap15/romwitch/) - utility to replace executables on "static" WonderWitch software images.
+ * [MiracleMage](https://github.com/Godzil/MiracleMage) (GPL-2.0) - limited high-level WonderWitch emulator.
+ * [romwitch](https://bitbucket.org/trap15/romwitch/) (GPL-2.0) - utility to replace executables on "static" WonderWitch software images.
  * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example on using Visual C++ 1.5 for compiling WonderWitch binaries.
 
 ### WW documentation
@@ -120,16 +127,17 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
  * [dumpipl](https://github.com/up-n-atom/wwsoft/tree/master/dumpipl) (MIT) - WS/WSC initial program loader dumping tool (as "Soft" image).
  * [vgmwitch](https://bitbucket.org/trap15/vgmwitch) (MIT) - SN76489 music player.
- * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPLv2) - terminal emulator.
- * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD 3-clause) - WWGP 2001 game.
+ * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPL-2.0) - terminal emulator.
+ * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD-3-Clause) - WWGP 2001 game.
 
 ## Hardware development
 
  * [Bandai2003](https://github.com/up-n-atom/Bandai2003) (MIT) - Verilog "2003" mapper implementation.
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
- * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) - FPGA-based screen capture solution.
- * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPLv2)
- * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC BY-NC-SA) - Headphone DAC adapter.
+ * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) (MIT) - FPGA-based screen capture solution.
+ * [swancolorHD](https://github.com/zwenergy/swancolorHD) - FPGA-based screen capture solution.
+ * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPL-2.0)
+ * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC-BY-NC-SA-4.0) - Headphone DAC adapter.
 
 ## Historical
 
