@@ -133,6 +133,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ## Hardware development
 
  * [Bandai2003](https://github.com/up-n-atom/Bandai2003) (MIT) - Verilog "2003" mapper implementation.
+ * [ExtFriend](https://github.com/WonderfulToolchain/ws-extfriend) (GPL-3.0) - WonderSwan EXT<->USB adapter with digital audio capture.
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
  * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) (MIT) - FPGA-based screen capture solution.
  * [swancolorHD](https://github.com/zwenergy/swancolorHD) - FPGA-based screen capture solution.
