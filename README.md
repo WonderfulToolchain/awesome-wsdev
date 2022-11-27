@@ -137,6 +137,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
  * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) (MIT) - FPGA-based screen capture solution.
  * [swancolorHD](https://github.com/zwenergy/swancolorHD) - FPGA-based screen capture solution.
+ * [USB WonderSwan Cartridge Utility](https://github.com/up-n-atom/WonderSwanCartTap) (MIT) - cartridge dumper and programmer.
  * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPL-2.0)
  * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC-BY-NC-SA-4.0) - Headphone DAC adapter.
 
