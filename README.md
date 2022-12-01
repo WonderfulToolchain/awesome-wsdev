@@ -10,6 +10,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [WonderSwan hardware](#wonderswan-hardware)
   - [Other documentation](#other-documentation)
 - [Emulators](#emulators)
+- [Accuracy test ROMs](#accuracy-test-roms)
 - [Software development](#software-development)
   - [Tools](#tools)
     - [Graphics utilities](#graphics-utilities)
@@ -69,6 +70,10 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### Peripherals
 
  * [WonderFence](https://bitbucket.org/trap15/wonderfence/src/master/) (MIT) - MobileWonderGate internet adapter emulator.
+
+## Accuracy test ROMs
+
+ * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - automatic CPU timing test, sprite priority/window testing tool
 
 ## Software development
 
