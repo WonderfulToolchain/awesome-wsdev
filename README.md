@@ -6,7 +6,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
 
 - [Introduction](#introduction)
 - [Documentation](#documentation)
-  - [NEC V30MZ CPU](#nec-v30mz-cpu)
+  - [Datasheets](#datasheets)
   - [WonderSwan hardware](#wonderswan-hardware)
   - [Other documentation](#other-documentation)
 - [Emulators](#emulators)
@@ -38,7 +38,9 @@ As such, some of the tooling may not be applicable to WonderWitch developers.
 
 ## Documentation
 
-### NEC V30MZ CPU
+### Datasheets
+
+#### NEC V30MZ CPU
 
 The NEC V30MZ is an 80186-compatible CPU for low-power platforms with an efficient pipeline design. It should not be confused with the
 NEC V20/V30 line of CPUs, which provide additional opcodes and features on top of the 8086 architecture.
@@ -48,10 +50,15 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
  * [NEC V30MZ Preliminary User's Manual](https://www.renesas.com/us/en/document/lbr/v30mztm-hardware-preliminary)
 
+#### Other
+
+  * [Seiko S-3511A RTC](http://perfectkiosk.net/S-3511A.pdf)
+
 ### WonderSwan hardware
 
  * **[STSWS](http://perfectkiosk.net/stsws.html)** - the most recent documentation source.
  * **[WSMan](http://daifukkat.su/docs/wsman/)** - contains some information not yet in STSWS.
+ * [Everything You Never Wanted to Know about the WonderSwan RTC](https://forums.nesdev.org/viewtopic.php?t=21513)
 
 ### Other documentation
 
