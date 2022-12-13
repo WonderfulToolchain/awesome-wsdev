@@ -80,7 +80,8 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Accuracy test ROMs
 
- * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - automatic CPU timing test, sprite priority/window testing tool
+ * [WSTimingTest](https://github.com/FluBBaOfWard/WSTimingTest)
+ * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - sprite priority/window testing tool
 
 ## Software development
 
