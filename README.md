@@ -20,6 +20,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [Demos](#demos)
   - [Games](#games)
   - [Other programs](#other-programs)
+  - [Miscellaneous](#miscellaneous)
 - [WonderWitch](#wonderwitch)
   - [WW documentation](#ww-documentation)
   - [WW open-source homebrew](#ww-open-source-homebrew)
@@ -63,6 +64,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### Other documentation
 
  * [splashbuilder readme](https://github.com/Godzil/splashbuilder/blob/master/README.md) - WonderSwan Color custom boot splash format.
+ * [.WSR file format documentation](archive/in_wsr.txt) (Japanese)
 
 ## Emulators
 
@@ -125,6 +127,10 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [CartFriend](https://github.com/WonderfulToolchain/ws-cartfriend) (GPL-3.0) - WonderSwan cartridge menu/launcher
  * [ieepview](https://github.com/asiekierka/ws-ieepview) (MIT) - internal EEPROM viewer/editor.
  * [wsmonitor](https://bitbucket.org/trap15/wsmonitor/) (MIT) - 80186 debug monitor.
+
+### Miscellaneous
+
+ * [vgmswan](https://github.com/asiekierka/vgmswan) (MIT/zlib) - .VGM playback and conversion tools.
 
 ## WonderWitch
 
