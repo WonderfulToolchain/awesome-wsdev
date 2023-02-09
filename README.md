@@ -70,7 +70,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### Console
 
- * [ares](https://ares-emu.net/) (ISC)
+ * **[ares](https://ares-emu.net/)** (ISC)
  * [Mednafen](https://mednafen.github.io/) (GPL-2.0) - supports WonderWitch and serial port emulation.
  * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DSi.
  * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) (MIT) - C#-based WonderSwan emulator.
@@ -82,7 +82,8 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Accuracy test ROMs
 
- * [WSTimingTest](https://github.com/FluBBaOfWard/WSTimingTest)
+ * [WSHWTest](https://github.com/FluBBaOfWard/WSHWTest) - SoC interrupt/PPU timer handling
+ * [WSTimingTest](https://github.com/FluBBaOfWard/WSTimingTest) - V30MZ CPU timing
  * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - sprite priority/window testing tool
 
 ## Software development
