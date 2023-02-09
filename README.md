@@ -65,7 +65,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### Other documentation
 
  * [splashbuilder readme](https://github.com/Godzil/splashbuilder/blob/master/README.md) - WonderSwan Color custom boot splash format.
- * [.WSR file format documentation](archive/in_wsr.txt) (Japanese)
+ * [.WSR file format documentation](archive/in_wsr.txt) (Japanese) - popular WonderSwan standalone/emulated music file format.
 
 ## Emulators
 
