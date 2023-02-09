@@ -53,7 +53,8 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 #### Other
 
-  * [Seiko S-3511A RTC](http://perfectkiosk.net/S-3511A.pdf)
+  * [Seiko S-3511A](http://perfectkiosk.net/S-3511A.pdf) - cartridge RTC.
+  * [Fujitsu MBM29DL400TC](https://github.com/up-n-atom/WonderWitch/blob/main/Datasheets/MBM29DL400BC-12PFTN_to_MBM29DL400TC-90PFTN.pdf) - WonderWitch NOR flash.
 
 ### WonderSwan hardware
 
