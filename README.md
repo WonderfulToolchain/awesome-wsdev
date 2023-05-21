@@ -151,6 +151,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 ### WW open-source homebrew
 
  * [dumpipl](https://github.com/up-n-atom/wwsoft/tree/master/dumpipl) (MIT) - WS/WSC initial program loader dumping tool (as "Soft" image).
+ * [HummingCat](https://github.com/molety/HummingCat/) (MIT) - work-in-progress sound driver.
  * [vgmwitch](https://bitbucket.org/trap15/vgmwitch) (MIT) - SN76489 music player.
  * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPL-2.0) - terminal emulator.
  * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD-3-Clause) - WWGP 2001 game.
