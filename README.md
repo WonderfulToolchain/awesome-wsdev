@@ -12,9 +12,10 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
 - [Emulators](#emulators)
 - [Accuracy test ROMs](#accuracy-test-roms)
 - [Software development](#software-development)
+  - [Libraries](#libraries)
+    - [Music drivers](#music-drivers)
   - [Tools](#tools)
     - [Graphics utilities](#graphics-utilities)
-    - [Music drivers](#music-drivers)
 - [Source code](#source-code)
   - [Boilerplate](#boilerplate)
   - [Demos](#demos)
@@ -95,19 +96,25 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [Kyoui](https://asie.pl/files/kyoui_2004_11_02.zip) - (mirror) tools for compiling WonderSwan binaries using OpenWatcom.
  * [WSLink](https://bitbucket.org/trap15/wonder/src/master/) (MIT) - NASM linker outputting WonderSwan and WonderWitch compatible binaries.
 
-### Tools
+### Libraries
 
- * [Dekadence WonderSwan Tools](https://github.com/superjohan/wonderswan-tools) (MIT) - assorted Python scripts.
- * [splashbuilder](https://github.com/Godzil/splashbuilder) (BSD-3-Clause) - toolchain for creating custom WonderSwan Color boot splashes.
- 
-#### Graphics utilities
-
- * **[SuperFamiconv](https://github.com/Optiroc/SuperFamiconv)** (MIT) - tile/map converter with flexible palette/optimization options and mostly-complete WS/WSC support.
- * [bmp2swan](http://onorisoft.free.fr/retro.htm?ws/ws.htm) - simple bitmap converter.
+ * [libws](https://github.com/WonderfulToolchain/target-wswan-syslibs/tree/main/libws) (zlib) - hardware abstraction functions
+ * [libwsx](https://github.com/WonderfulToolchain/target-wswan-syslibs/tree/main/libwsx) (zlib) - decompressors and other useful functions
+ * [LZSS decompression routine](archive/orion-lzss-decompression-routine.asm) (public domain)
 
 #### Music drivers
 
  * [WonderSwan Total Sound Driver](https://github.com/Shaw02/WTD)
+ 
+### Tools
+
+ * [Dekadence WonderSwan Tools](https://github.com/superjohan/wonderswan-tools) (MIT) - assorted Python scripts.
+ * [splashbuilder](https://github.com/Godzil/splashbuilder) (BSD-3-Clause) - toolchain for creating custom WonderSwan Color boot splashes.
+
+#### Graphics utilities
+
+ * **[SuperFamiconv](https://github.com/Optiroc/SuperFamiconv)** (MIT) - tile/map converter with flexible palette/optimization options and mostly-complete WS/WSC support.
+ * [bmp2swan](http://onorisoft.free.fr/retro.htm?ws/ws.htm) - simple bitmap converter.
 
 ## Source code
 
