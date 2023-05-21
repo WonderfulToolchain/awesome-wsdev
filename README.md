@@ -90,9 +90,9 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Software development
 
+ * **[Wonderful](https://wonderful.asie.pl/)** - gcc-ia16 based C/ASM toolchain for WonderSwan and WonderWitch.
  * [owswan](https://github.com/jounikor/owswan) - OpenWatcom-based WonderSwan toolchain. 
  * [Kyoui](https://asie.pl/files/kyoui_2004_11_02.zip) - (mirror) tools for compiling WonderSwan binaries using OpenWatcom.
- * [Wonderful](https://github.com/WonderfulToolchain/wonderful-i8086) - work-in-progress gcc-ia16 based C/ASM toolchain for WonderSwan and WonderWitch.
  * [WSLink](https://bitbucket.org/trap15/wonder/src/master/) (MIT) - NASM linker outputting WonderSwan and WonderWitch compatible binaries.
 
 ### Tools
