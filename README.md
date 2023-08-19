@@ -61,6 +61,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
  * **[STSWS](http://perfectkiosk.net/stsws.html)** - the most recent documentation source.
  * **[WSMan](http://daifukkat.su/docs/wsman/)** - contains some information not yet in STSWS.
+ * [ws.nesdev.org wiki](https://ws.nesdev.org/wiki/Main_Page) - incomplete, but trying to become the definite documentation source.
  * [Everything You Never Wanted to Know about the WonderSwan RTC](https://forums.nesdev.org/viewtopic.php?t=21513)
  * [Retail cartridges](https://github.com/RSDuck/nileswan/blob/main/docs/retail_cartridges.md) - cartridge logic analyzer and requirement documentation.
 
