@@ -86,6 +86,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Accuracy test ROMs
 
+ * [WSCPUTest](https://github.com/FluBBaOfWard/WSCPUTest) - V30MZ CPU behaviour
  * [WSHWTest](https://github.com/FluBBaOfWard/WSHWTest) - SoC interrupt/PPU timer handling
  * [WSTimingTest](https://github.com/FluBBaOfWard/WSTimingTest) - V30MZ CPU timing
  * [ws-test-suite](https://github.com/asiekierka/ws-test-suite) (MIT) - asie's assorted hardware tests and testing tools
