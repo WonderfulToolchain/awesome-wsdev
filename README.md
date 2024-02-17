@@ -26,6 +26,9 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [WW documentation](#ww-documentation)
   - [WW open-source homebrew](#ww-open-source-homebrew)
 - [Hardware development](#hardware-development)
+  - [Cartridges](#cartridges)
+  - [Screen capture](#screen-capture)
+  - [Other hardware development](#other-hardware-development)
 - [Historical](#historical)
 
 ## Introduction
@@ -129,10 +132,13 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### Demos
 
+ * [#wonderwitch IRC channel promo](https://github.com/tslanina/Retro-WonderSwanColor-Promo) (MIT)
  * [Bad Apple!! for WSwan](https://github.com/asiekierka/bad-apple-for-wswan) (MIT)
+ * [HBlank Cylinder Effect](https://github.com/joffb/wsc-witch-cylinder)
 
 ### Games
 
+ * [Inufuto's games](http://inufuto.web.fc2.com/8bit/) - written using a custom C-like toolchain.
  * [SwanDriving](http://sebastianmihai.com/swan-driving.html) ([Mono](http://sebastianmihai.com/swan-driving-bw.html)) - tech demo written with NASM.
  * [WonderSnake](https://github.com/tslanina/Retro-WonderSwanColor-Wondersnake) (GPL-3.0) - Snake game written with Borland TASM.
 
@@ -170,14 +176,24 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Hardware development
 
+### Cartridges
+
  * [Bandai2003](https://github.com/up-n-atom/Bandai2003) (MIT) - Verilog "2003" mapper implementation.
- * [ExtFriend](https://github.com/WonderfulToolchain/ws-extfriend) (GPL-3.0) - WonderSwan EXT<->USB adapter with digital audio capture.
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
+ * [nileswan](https://github.com/RSDuck/nileswan/) (GPLv3) - Open-source flash cartridge.
+ * [USB WonderSwan Cartridge Utility](https://github.com/up-n-atom/WonderSwanCartTap) (MIT) - cartridge dumper and programmer.
+
+### Screen capture
+
  * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) (MIT) - FPGA-based screen capture solution.
  * [swancolorHD](https://github.com/zwenergy/swancolorHD) - FPGA-based screen capture solution.
- * [USB WonderSwan Cartridge Utility](https://github.com/up-n-atom/WonderSwanCartTap) (MIT) - cartridge dumper and programmer.
+
+### Other hardware development
+
+ * [ExtFriend](https://github.com/WonderfulToolchain/ws-extfriend) (GPL-3.0) - WonderSwan EXT<->USB adapter with digital audio capture.
  * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPL-2.0)
  * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC-BY-NC-SA-4.0) - Headphone DAC adapter.
+ * [WSMtool](https://github.com/zwenergy/WSMtool) (CC-BY-NC-SA-4.0) - A multitool adapter for the WonderSwan. Headphone, serial and link cable adapter in one. 
 
 ## Historical
 
