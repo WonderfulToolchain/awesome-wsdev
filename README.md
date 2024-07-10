@@ -144,6 +144,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### Other programs
 
+ * [144p Test Suite for WS](https://github.com/asiekierka/240p-test-ws) (GPL-3.0) - 240p Test Suite-inspired user-side testing tool
  * [BootFriend](https://wonderful.asie.pl/ws/bootfriend) (GPL-3.0) - WonderSwan custom "firmware"/splash screen patch - XMODEM software load to RAM and more!
  * [CartFriend](https://github.com/WonderfulToolchain/ws-cartfriend) (GPL-3.0) - WonderSwan cartridge menu/launcher
  * [Chips1](https://github.com/asiekierka/chips1) (MIT) - CHIP-8/SuperCHIP emulator.
