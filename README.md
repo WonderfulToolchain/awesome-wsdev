@@ -10,6 +10,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [WonderSwan hardware](#wonderswan-hardware)
   - [Other documentation](#other-documentation)
 - [Emulators](#emulators)
+  - [Peripheral emulators](#peripheral-emulators)
 - [Accuracy test ROMs](#accuracy-test-roms)
 - [Software development](#software-development)
   - [Libraries](#libraries)
@@ -23,23 +24,27 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [Other programs](#other-programs)
   - [Miscellaneous](#miscellaneous)
 - [WonderWitch](#wonderwitch)
+  - [WW tools](#ww-tools)
   - [WW documentation](#ww-documentation)
   - [WW open-source homebrew](#ww-open-source-homebrew)
 - [Hardware development](#hardware-development)
   - [Cartridges](#cartridges)
+  - [Peripherals](#peripherals)
   - [Screen capture](#screen-capture)
   - [Other hardware development](#other-hardware-development)
 - [Historical](#historical)
 
 ## Introduction
 
-The Bandai WonderSwan is a handheld game console released and supported by Bandai from 1999 to 2003 in Japan. It is
-the last piece of hardware which the legendary Gunpei Yokoi had a hand in.
+The Bandai WonderSwan is a handheld game console released and supported by Bandai from 1999 to 2003 in Japan,
+with later follow-ups in the form of the 2000 WonderSwan Color and 2002 SwanCrystal. It is the last piece of
+hardware with design input from the legendary Gunpei Yokoi, as well as [Asuka Langley's handheld of choice](https://img.asie.pl/t9zJ.jpg).
 
-It is important to note that WonderWitch development is distinct from bare metal WonderSwan development.
-The former is specific to the WonderWitch - a special personal use development kit from Qute Corporation which came with
-its own hardware abstraction layer and toolchain, while the latter focuses on outputting self-contained WonderSwan software.
-As such, some of the tooling may not be applicable to WonderWitch developers.
+While this list focuses on "bare metal" WonderSwan development (cartridge ROM as output), note that there exists
+an official homebrew SDK for the console called the [WonderWitch](http://wonderwitch.qute.co.jp/) created by Qute Corporation,
+which requires different targetting (custom .fx file format, FreyaBIOS hardware abstraction layer, FreyaOS libraries,
+more restrictive IRAM/SRAM layout). Tools and examples for the WonderWitch are present in their own section; however,
+many other entries (such as hardware documentation or graphics converters) are applicable to both environments.
 
 ## Documentation
 
@@ -62,7 +67,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ### WonderSwan hardware
 
- * **[ws.nesdev.org wiki](https://ws.nesdev.org/wiki/Main_Page)** - the most recent and actively developed documentation source, the WSdev wiki!
+ * **[WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page)** - the most recent and actively developed documentation source, hosted by nesdev.org.
  * [STSWS](http://perfectkiosk.net/stsws.html) - contains some information not yet on the WSdev wiki.
  * [WSMan](http://daifukkat.su/docs/wsman/) - older documentation source.
  * [Everything You Never Wanted to Know about the WonderSwan RTC](https://forums.nesdev.org/viewtopic.php?t=21513)
@@ -75,15 +80,19 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## Emulators
 
-### Console
+ * **[Mesen 2](https://github.com/SourMesen/Mesen2/)** (GPL-3.0) - high accuracy, extensive built-in debugger and profiler, recommended for development.
+ * [ares](https://ares-emu.net/) (ISC) - high accuracy.
+ * [Mednafen](https://mednafen.github.io/) (GPL-2.0) - serial port emulation, built-in debugger.
+   * [BizHawk](https://tasvideos.org/Bizhawk) - WonderSwan core based on Mednafen, features Lua scripting and rewind/movie support.
+   * [wf-mednafen](https://github.com/WonderfulToolchain/wf-mednafen/releases/) - fork of Mednafen with emulation fixes and debugger UI/UX improvements, based on mednafenPceDev's work.
+   * [WonderDroid Ultra](https://f-droid.org/packages/com.atelieryl.wonderdroid/) - fork of Mednafen, Android port.
+ * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DS/DSi, user friendly WonderWitch support.
+ * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) (MIT) - C# WonderSwan emulator.
+ * [Oswan](sourceforge.jp/projects/oswan/devel) (GPL-2.0) - legacy WonderSwan emulator with a built-in debugger.
 
- * **[ares](https://ares-emu.net/)** (ISC)
- * [Mednafen](https://mednafen.github.io/) (GPL-2.0) - supports WonderWitch and serial port emulation.
- * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DSi.
- * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) (MIT) - C#-based WonderSwan emulator.
- * [WonderDroid Ultra](https://f-droid.org/packages/com.atelieryl.wonderdroid/) (GPL-2.0) - Mednafen wrapper for Android phones.
+### Peripheral emulators
 
-### Peripherals
+These emulators are currently only supported by Mednafen by editing its `wswan.excomm` configuration option.
 
  * [WonderFence](https://bitbucket.org/trap15/wonderfence/src/master/) (MIT) - MobileWonderGate internet adapter emulator.
 
@@ -92,7 +101,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [WSCPUTest](https://github.com/FluBBaOfWard/WSCPUTest) - V30MZ CPU behaviour
  * [WSHWTest](https://github.com/FluBBaOfWard/WSHWTest) - SoC interrupt/PPU timer handling
  * [WSTimingTest](https://github.com/FluBBaOfWard/WSTimingTest) - V30MZ CPU timing
- * [ws-test-suite](https://github.com/asiekierka/ws-test-suite) (MIT) - asie's assorted hardware tests and testing tools
+ * [ws-test-suite](https://github.com/asiekierka/ws-test-suite) (MIT) - assorted hardware tests and testing tools
  * [rtctest](https://forums.nesdev.org/viewtopic.php?t=21513) - "2003 mapper + S-3511" RTC protocol and behaviour
  * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - sprite priority/window testing tool
 
@@ -158,9 +167,12 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
 ## WonderWitch
 
- * [MiracleMage](https://github.com/Godzil/MiracleMage) (GPL-2.0) - limited high-level WonderWitch emulator.
- * [romwitch](https://bitbucket.org/trap15/romwitch/) (GPL-2.0) - utility to replace executables on "static" WonderWitch software images.
  * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example on using Visual C++ 1.5 for compiling WonderWitch binaries.
+
+### WW tools
+
+ * [MiracleMage](https://github.com/Godzil/MiracleMage) (GPL-2.0) - high-level WonderWitch emulator, only supports "mono" software, does not require a WonderWitch ROM.
+ * [romwitch](https://bitbucket.org/trap15/romwitch/) (GPL-2.0) - utility to inject executables into "static" WonderWitch software ROMs.
 
 ### WW documentation
 
@@ -181,20 +193,25 @@ and assemblers typically use Intel opcode names. A translation map between the t
 
  * [Bandai2003](https://github.com/up-n-atom/Bandai2003) (MIT) - Verilog "2003" mapper implementation.
  * [mbc-unlock](https://bitbucket.org/trap15/mbc-unlock) (CC0) - VHDL boot handshake implementation.
- * [nileswan](https://github.com/RSDuck/nileswan/) (GPLv3) - Open-source flash cartridge.
- * [USB WonderSwan Cartridge Utility](https://github.com/up-n-atom/WonderSwanCartTap) (MIT) - cartridge dumper and programmer.
+ * [nileswan](https://github.com/RSDuck/nileswan/) (GPLv3) - open-source flash cartridge.
+
+### Peripherals
+
+ * [ExtFriend](https://github.com/WonderfulToolchain/ws-extfriend) (GPL-3.0) - WonderSwan EXT<->USB adapter with digital audio capture.
+ * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC-BY-NC-SA-4.0) - headphone DAC adapter.
+ * [WS-LinkC](https://github.com/zwenergy/WS-LinkC) (CC-BY-NC-SA-4.0) - cheap, DIY-friendly link cable alternative.
+ * [WSMtool](https://github.com/zwenergy/WSMtool) (CC-BY-NC-SA-4.0) - multitool adapter for the WonderSwan; headphone, serial and link cable adapter in one. 
 
 ### Screen capture
 
  * [nisetro_wsc](https://github.com/splash5/nisetro_wsc) (MIT) - FPGA-based screen capture solution.
- * [swancolorHD](https://github.com/zwenergy/swancolorHD) - FPGA-based screen capture solution.
+ * [swancolorHD](https://github.com/zwenergy/swancolorHD) (GPL-3.0) - FPGA-based screen capture solution.
+   * [swantroller](https://github.com/zwenergy/swantroller) (GPL-3.0) - WonderSwan Color-based controller PCB for the swancolorHD.
 
 ### Other hardware development
 
- * [ExtFriend](https://github.com/WonderfulToolchain/ws-extfriend) (GPL-3.0) - WonderSwan EXT<->USB adapter with digital audio capture.
+ * [USB WonderSwan Cartridge Utility](https://github.com/up-n-atom/WonderSwanCartTap) (MIT) - cartridge dumper and programmer.
  * [WonderSwan for MiSTer](https://github.com/MiSTer-devel/WonderSwan_MiSTer) (GPL-2.0)
- * [wsheadphone](https://github.com/zwenergy/wsheadphone) (CC-BY-NC-SA-4.0) - Headphone DAC adapter.
- * [WSMtool](https://github.com/zwenergy/WSMtool) (CC-BY-NC-SA-4.0) - A multitool adapter for the WonderSwan. Headphone, serial and link cable adapter in one. 
 
 ## Historical
 
