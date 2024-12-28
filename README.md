@@ -5,13 +5,13 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
 ## Contents
 
 - [Introduction](#introduction)
+  - [Getting started](#getting-started)
 - [Documentation](#documentation)
   - [Datasheets](#datasheets)
-  - [WonderSwan hardware](#wonderswan-hardware)
   - [Other documentation](#other-documentation)
 - [Emulators](#emulators)
   - [Peripheral emulators](#peripheral-emulators)
-- [Accuracy test ROMs](#accuracy-test-roms)
+  - [Test ROMs](#test-roms)
 - [Software development](#software-development)
   - [Libraries](#libraries)
     - [Music drivers](#music-drivers)
@@ -27,7 +27,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
   - [WW tools](#ww-tools)
   - [WW documentation](#ww-documentation)
   - [WW open-source homebrew](#ww-open-source-homebrew)
-- [Hardware development](#hardware-development)
+- [Open source hardware](#open-source-hardware)
   - [Cartridges](#cartridges)
   - [Peripherals](#peripherals)
   - [Screen capture](#screen-capture)
@@ -46,7 +46,21 @@ which requires different targetting (custom .fx file format, FreyaBIOS hardware 
 more restrictive IRAM/SRAM layout). Tools and examples for the WonderWitch are present in their own section; however,
 many other entries (such as hardware documentation or graphics converters) are applicable to both environments.
 
+### Getting started
+
+For native WonderSwan development, I personally recommend the following sources:
+
+ * [Wonderful Toolchain Wiki](https://wonderful.asie.pl/wiki/doku.php?id=wswan:index) - documentation for the open-source WonderSwan/WonderWitch homebrew toolchain,
+ * [WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page) - hardware documentation.
+
+For native WonderSwan and WonderWitch development alike, you may find a serial port adapter useful. The [ConsoleMods Wiki](https://consolemods.org/wiki/WonderSwan:RS-232_Serial_Cable_Mod)
+provides a list of both purchaseable adapters and DIY building projects.
+
 ## Documentation
+
+ * **[WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page)** - the most recent and actively developed documentation source, hosted by nesdev.org.
+ * [STSWS](http://perfectkiosk.net/stsws.html) - contains some information not yet on the WSdev wiki.
+ * [WSMan](http://daifukkat.su/docs/wsman/) - older documentation source.
 
 ### Datasheets
 
@@ -65,16 +79,10 @@ and assemblers typically use Intel opcode names. A translation map between the t
   * [Seiko S-3511A](http://perfectkiosk.net/S-3511A.pdf) - cartridge RTC.
   * [Fujitsu MBM29DL400TC](https://github.com/up-n-atom/WonderWitch/blob/main/Datasheets/MBM29DL400BC-12PFTN_to_MBM29DL400TC-90PFTN.pdf) - WonderWitch NOR flash.
 
-### WonderSwan hardware
-
- * **[WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page)** - the most recent and actively developed documentation source, hosted by nesdev.org.
- * [STSWS](http://perfectkiosk.net/stsws.html) - contains some information not yet on the WSdev wiki.
- * [WSMan](http://daifukkat.su/docs/wsman/) - older documentation source.
- * [Everything You Never Wanted to Know about the WonderSwan RTC](https://forums.nesdev.org/viewtopic.php?t=21513)
- * [Retail cartridges](https://github.com/RSDuck/nileswan/blob/main/docs/retail_cartridges.md) - cartridge logic analyzer and requirement documentation.
-
 ### Other documentation
 
+ * [Everything You Never Wanted to Know about the WonderSwan RTC](https://forums.nesdev.org/viewtopic.php?t=21513)
+ * [Retail cartridges](https://github.com/RSDuck/nileswan/blob/main/docs/retail_cartridges.md) - cartridge logic analyzer and requirement documentation.
  * [splashbuilder readme](https://github.com/Godzil/splashbuilder/blob/master/README.md) - WonderSwan Color custom boot splash format.
  * [.WSR file format documentation](archive/in_wsr.txt) (Japanese) - popular WonderSwan standalone/emulated music file format.
 
@@ -87,6 +95,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
    * [wf-mednafen](https://github.com/WonderfulToolchain/wf-mednafen/releases/) - fork of Mednafen with emulation fixes and debugger UI/UX improvements, based on mednafenPceDev's work.
    * [WonderDroid Ultra](https://f-droid.org/packages/com.atelieryl.wonderdroid/) - fork of Mednafen, Android port.
  * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DS/DSi, user friendly WonderWitch support.
+   * [SwanGBA](https://github.com/FluBBaOfWard/SwanGBA/) - GBA version of the above, does not run at full speed.
  * [StoicGoose](https://github.com/xdanieldzd/StoicGoose) (MIT) - C# WonderSwan emulator.
  * [Oswan](sourceforge.jp/projects/oswan/devel) (GPL-2.0) - legacy WonderSwan emulator with a built-in debugger.
 
@@ -96,7 +105,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
  * [WonderFence](https://bitbucket.org/trap15/wonderfence/src/master/) (MIT) - MobileWonderGate internet adapter emulator.
 
-## Accuracy test ROMs
+## Test ROMs
 
  * [WSCPUTest](https://github.com/FluBBaOfWard/WSCPUTest) - V30MZ CPU behaviour
  * [WSHWTest](https://github.com/FluBBaOfWard/WSHWTest) - SoC interrupt/PPU timer handling
@@ -167,7 +176,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
 ## WonderWitch
 
- * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example on using Visual C++ 1.5 for compiling WonderWitch binaries.
+ * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example of using Visual C++ 1.5 for compiling WonderWitch binaries.
 
 ### WW tools
 
@@ -177,7 +186,9 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 ### WW documentation
 
  * [Don Walizer Jr's tutorials](https://www.donwalizerjr.com/tags/wonderswan) ([source code](https://github.com/dwalizer/wonderwitch)).
- * [wonder/doc/freya](https://bitbucket.org/trap15/wonder/src/master/doc/freya/) - initial Freya internals documentation.
+ * [Wonder Witch Technical Manual](http://shaw.la.coocan.jp/wwtm/)
+ * [WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page) - also contains a WonderWitch section.
+ * [wonder/doc/freya](https://bitbucket.org/trap15/wonder/src/master/doc/freya/)
 
 ### WW open-source homebrew
 
@@ -187,7 +198,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
  * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPL-2.0) - terminal emulator.
  * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD-3-Clause) - WWGP 2001 game.
 
-## Hardware development
+## Open source hardware
 
 ### Cartridges
 
