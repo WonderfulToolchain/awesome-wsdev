@@ -166,6 +166,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
  * [BootFriend](https://wonderful.asie.pl/ws/bootfriend) (GPL-3.0) - WonderSwan custom "firmware"/splash screen patch - XMODEM software load to RAM and more!
  * [CartFriend](https://github.com/WonderfulToolchain/ws-cartfriend) (GPL-3.0) - WonderSwan cartridge menu/launcher
  * [Chips1](https://github.com/asiekierka/chips1) (MIT) - CHIP-8/SuperCHIP emulator.
+ * [ELKS](https://github.com/ghaerr/elks) (GPL-2.0 + others) - Embedded Linux Kernel Subset kernel/operating system.
  * [ieepview](https://github.com/asiekierka/ws-ieepview) (MIT) - internal EEPROM viewer/editor.
  * [ws-backup-tool](https://github.com/asiekierka/ws-backup-tool) (GPL-3.0) - cartridge backup/restore/flash tool and IPL dumper for BootFriend.
  * [wsmonitor](https://bitbucket.org/trap15/wsmonitor/) (MIT) - 80186 debug monitor.
@@ -176,10 +177,13 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
 ## WonderWitch
 
+ * [AthenaOS](https://github.com/OpenWitch/AthenaOS) - FreyaBIOS/FreyaOS re-implementation project.
+ * [ow-libs](https://github.com/OpenWitch/ow-libs) - WonderWitch standard library re-implementation project.
  * [wonderwitchvc15](https://github.com/autumn009/wonderwitchvc15) - example of using Visual C++ 1.5 for compiling WonderWitch binaries.
 
 ### WW tools
 
+ * [exe2fbin](https://github.com/OpenWitch/exe2fbin) (PD) - reconstruction of the official exe2fbin binary.
  * [MiracleMage](https://github.com/Godzil/MiracleMage) (GPL-2.0) - high-level WonderWitch emulator, only supports "mono" software, does not require a WonderWitch ROM.
  * [romwitch](https://bitbucket.org/trap15/romwitch/) (GPL-2.0) - utility to inject executables into "static" WonderWitch software ROMs.
 
