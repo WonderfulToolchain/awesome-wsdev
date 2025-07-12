@@ -113,6 +113,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
  * [ws-test-suite](https://github.com/asiekierka/ws-test-suite) (MIT) - assorted hardware tests and testing tools
  * [rtctest](https://forums.nesdev.org/viewtopic.php?t=21513) - "2003 mapper + S-3511" RTC protocol and behaviour
  * [Robert Peip's test ROMs](https://github.com/MiSTer-devel/WonderSwan_MiSTer/tree/main/testroms) - sprite priority/window testing tool
+ * [KarnakTest](https://github.com/FluBBaOfWard/KarnakTest) - PCv2 KARNAK timer/ADPCM mapper testing
 
 ## Software development
 
