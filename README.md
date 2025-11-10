@@ -203,7 +203,7 @@ This section only lists programs whose source code is explicitly listed under op
 
  * [FallingTower mini](http://www.fenix.ne.jp/~cdrtk/soft/wwjump.html) (BSD-2-Clause)
  * [Nametry](https://www.asahi-net.or.jp/~cs8k-cyu/ww/nametry.html) (BSD-2-Clause)
- * [Noiz](www.asahi-net.or.jp/~cs8k-cyu/ww/noiz.html) (GPL-2.0-or-later)
+ * [Noiz](https://www.asahi-net.or.jp/~cs8k-cyu/ww/noiz.html) (GPL-2.0-or-later)
  * [PutiPati](https://www.asahi-net.or.jp/~cs8k-cyu/ww/putipati.html) (BSD-2-Clause)
  * [Soari-san](http://www.fenix.ne.jp/~cdrtk/soft/soari.html) (BSD-2-Clause)
  * [SpeedMac](https://kozos.jp/ww/) (BSD-2-Clause)
