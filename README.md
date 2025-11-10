@@ -26,7 +26,7 @@ A curated list of awesome WonderSwan/WonderSwan Color development resources and 
 - [WonderWitch](#wonderwitch)
   - [WW tools](#ww-tools)
   - [WW documentation](#ww-documentation)
-  - [WW open-source homebrew](#ww-open-source-homebrew)
+  - [Open source WW programs](#open-source-ww-programs)
 - [Open source hardware](#open-source-hardware)
   - [Cartridges](#cartridges)
   - [Peripherals](#peripherals)
@@ -195,13 +195,30 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
  * [WSdev Wiki](https://ws.nesdev.org/wiki/Main_Page) - also contains a WonderWitch section.
  * [wonder/doc/freya](https://bitbucket.org/trap15/wonder/src/master/doc/freya/)
 
-### WW open-source homebrew
+### Open source WW programs
+
+This section only lists programs whose source code is explicitly listed under open source licenses.
+
+#### Games
+
+ * [FallingTower mini](http://www.fenix.ne.jp/~cdrtk/soft/wwjump.html) (BSD-2-Clause)
+ * [Nametry](https://www.asahi-net.or.jp/~cs8k-cyu/ww/nametry.html) (BSD-2-Clause)
+ * [Noiz](www.asahi-net.or.jp/~cs8k-cyu/ww/noiz.html) (GPL-2.0-or-later)
+ * [PutiPati](https://www.asahi-net.or.jp/~cs8k-cyu/ww/putipati.html) (BSD-2-Clause)
+ * [Soari-san](http://www.fenix.ne.jp/~cdrtk/soft/soari.html) (BSD-2-Clause)
+ * [SpeedMac](https://kozos.jp/ww/) (BSD-2-Clause)
+ * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD-3-Clause)
+
+#### Applications
 
  * [dumpipl](https://github.com/up-n-atom/wwsoft/tree/master/dumpipl) (MIT) - WS/WSC initial program loader dumping tool (as "Soft" image).
- * [HummingCat](https://github.com/molety/HummingCat/) (MIT) - work-in-progress sound driver.
  * [vgmwitch](https://bitbucket.org/trap15/vgmwitch) (MIT) - SN76489 music player.
  * [WWTerm](https://github.com/WonderfulToolchain/WWTerm/tree/original) (GPL-2.0) - terminal emulator.
- * [yoppa](https://github.com/WonderfulToolchain/yoppa/tree/original) (BSD-3-Clause) - WWGP 2001 game.
+ * [米七note](http://www.fenix.ne.jp/~cdrtk/soft/ksnote.html) (BSD-2-Clause)
+
+#### Libraries
+
+ * [HummingCat](https://github.com/molety/HummingCat/) (MIT) - work-in-progress sound driver.
 
 ## Open source hardware
 
