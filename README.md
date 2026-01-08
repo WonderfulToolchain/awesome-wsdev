@@ -130,6 +130,7 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
 #### Music drivers
 
+ * [Cygnals](github.com/joffb/cygnals) (MIT) - partially Furnace compatible audio driver.
  * [WonderSwan Total Sound Driver](https://github.com/Shaw02/WTD)
  
 ### Tools
