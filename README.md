@@ -92,7 +92,7 @@ and assemblers typically use Intel opcode names. A translation map between the t
  * [ares](https://ares-emu.net/) (ISC) - high accuracy.
  * [Mednafen](https://mednafen.github.io/) (GPL-2.0) - serial port emulation, built-in debugger.
    * [BizHawk](https://tasvideos.org/Bizhawk) - WonderSwan core based on Mednafen, features Lua scripting and rewind/movie support.
-   * [wf-mednafen](https://github.com/WonderfulToolchain/wf-mednafen/releases/) - fork of Mednafen with emulation fixes and debugger UI/UX improvements, based on mednafenPceDev's work.
+   * [wf-mednafen](https://codeberg.org/WonderfulToolchain/wf-mednafen/releases/) - fork of Mednafen with emulation fixes and debugger UI/UX improvements, based on mednafenPceDev's work.
    * [WonderDroid Ultra](https://f-droid.org/packages/com.atelieryl.wonderdroid/) - fork of Mednafen, Android port.
  * [NitroSwan](https://github.com/FluBBaOfWard/NitroSwan) - WonderSwan emulator for Nintendo DS/DSi, user friendly WonderWitch support.
    * [SwanGBA](https://github.com/FluBBaOfWard/SwanGBA/) - GBA version of the above, does not run at full speed.
@@ -124,8 +124,8 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
 ### Libraries
 
- * [libws](https://github.com/WonderfulToolchain/target-wswan-syslibs/tree/main/libws) (zlib) - hardware abstraction functions
- * [libwsx](https://github.com/WonderfulToolchain/target-wswan-syslibs/tree/main/libwsx) (zlib) - decompressors and other useful functions
+ * [libws](https://codeberg.org/WonderfulToolchain/target-wswan-syslibs/tree/main/libws) (zlib) - hardware abstraction functions
+ * [libwsx](https://codeberg.org/WonderfulToolchain/target-wswan-syslibs/tree/main/libwsx) (zlib) - decompressors and other useful functions
  * [LZSS decompression routine](archive/orion-lzss-decompression-routine.asm) (public domain)
 
 #### Music drivers
@@ -146,7 +146,6 @@ These emulators are currently only supported by Mednafen by editing its `wswan.e
 
 ### Boilerplate
 
- * [Wonderful template](https://github.com/WonderfulToolchain/wonderful-i8086/tree/main/examples/wswan/template) - GCC/GAS-based template.
  * [wonder/template](https://bitbucket.org/trap15/wonder/src/master/samples/template/) - NASM-based template.
 
 ### Demos
